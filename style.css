@@ -1,0 +1,26 @@
+body{
+    background-image: url('/laptops/backgound.jpg'); /* Update path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bg-light{
+    background: none;
+}
+section{
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+@keyframes slideUp{
+    from{transform: translateY(200%); opacity: 0;}
+    to{transform: translateY(0); opacity: 1;}
+}
+.p-4{
+    animation-name: slideUp;
+    animation-duration: 1.5s;
+}
+img{
+    height: 350px;
+    object-fit: cover;
+}
