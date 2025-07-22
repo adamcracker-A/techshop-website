@@ -1,5 +1,5 @@
 body{
-    background-image: url('/laptops/backgound.jpg'); /* Update path as needed */
+    background-image: url('backgound.jpg'); /* Update path as needed */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
